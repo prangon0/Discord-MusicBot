@@ -1,9 +1,9 @@
 module.exports = {
 	cmdPerPage: 10, //- Number of commands per page of help command
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
-	token: process.env.token || "", //- Bot's Token
-	clientId: process.env.clientId || "", //- ID of the bot
-	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
+	adminId: "851499321583992885", //- Replace UserId with the Discord ID of the admin of the bot
+	token: process.env.token || "ODg3ODA1NjU3NTMxNzAzMzI3.G2FQ26.0P6JIQjrJaZ1sEE2WjitLcF1L4YOMgWvaa_D0Y", //- Bot's Token
+	clientId: process.env.clientId || "887805657531703327", //- ID of the bot
+	clientSecret: process.env.clientSecret || "4019e7e656b941ffe3b5415a74b51df8425b33764973d36a85ac96f9fe58075d", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
@@ -23,12 +23,12 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "", //- The password of the lavalink server.
+			host: "lavalink.oops.wtf", //- The host name or IP of the lavalink server.
+			port: 443, // The port that lavalink is listening to. This must be a number!
+			password: "www.freelavalink.ga", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 	],
 	embedColor: "#2f3136", //- Color of the embeds, hex supported
