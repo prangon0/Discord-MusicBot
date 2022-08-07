@@ -3,7 +3,7 @@ module.exports = {
 	adminId: "851499321583992885", //- Replace UserId with the Discord ID of the admin of the bot
 	token: process.env.token || "ODg3ODA1NjU3NTMxNzAzMzI3.G2FQ26.0P6JIQjrJaZ1sEE2WjitLcF1L4YOMgWvaa_D0Y", //- Bot's Token
 	clientId: process.env.clientId || "887805657531703327", //- ID of the bot
-	clientSecret: process.env.clientSecret || "4019e7e656b941ffe3b5415a74b51df8425b33764973d36a85ac96f9fe58075d", //- Client Secret of the bot
+	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
 	port: 4200, //- Port of the API and Dashboard
 	scopes: ["identify", "guilds", "applications.commands"], //- Discord OAuth2 Scopes
 	serverDeafen: true, //- If you want bot to stay deafened
